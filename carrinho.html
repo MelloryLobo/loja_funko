@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Carrinho</title>
+</head>
+
+<body>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+
+    <div class="container" align="center">
+        <script>
+            listagemview();
+        </script>
+        <h2>Caverna do Funko</h2>
+        <br>
+        <input type="button" class="btn btn-lg btn-primary form-control" value="Voltar" onclick="location.href='pagina_inicial.html'"><br><br>
+        <br>
+        <h3>Carrinho</h3>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                        <th>
+                            <h4>Nome </h4>
+                        </th>
+                        <th>
+                            <h4>quantidade em estoque</h4>
+                        </th>
+                        <th>
+                            <h4>preço</h4>
+                        </th>
+                    </thead>
+                    <tbody id="caverna_funko_listagem">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <br>
+        <br>
+        <div class="container">
+
+            <h4>Desenvolvido por: Méllory Lôbo & Bárbara Késsia</h4>
+
+        </div>
+
+    </footer>
+
+    <script>
+        caverna_funko_mostra();
+    </script>
+</body>
+
+
+</html>
